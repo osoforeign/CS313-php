@@ -1,0 +1,113 @@
+/* CSS Style Sheet */
+
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: Myriad Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #545454;
+
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+ //   opacity: .90;
+}
+
+h1 {
+    font-family: Myriad Pro, sans-serif, Helvetica;
+    font-size: 40px;
+}
+
+i {
+    font-family: cursive;
+    font-style: italic;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 125%;
+}
+
+th {
+    font-family: Myriad Pro, Helvetica;
+    font-size: 125%;
+}
+
+.h {
+    font-family: Myriad Pro, sans-serif, helvetica;
+    font-weight: 600;
+    font-size: 90px;
+    color: aliceblue;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.center {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center_wide {
+    margin: auto;
+    width: 85%;
+    text-align: center;
+}
+
+.front_bg {
+    background-image: url("homepic.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_gap {
+    min-height: 300px;
+    clear: both;
+}
+
+#headerround {
+    background: #e8d9c5;
+    height: 30px;
+    margin: auto;
+    width: 85%;
+    opacity: 0.90;
+    padding: 20px;
+    text-align: center;
+    border: .5px;
+    border-radius: 5px;
+    font-size: 140%;
+}
+
+#footerround {
+    background: #e8d9c5;
+    height: 30px;
+    margin: auto;
+    width: 85%;
+    opacity: 0.90;
+    padding: 3px;
+    text-align: center;
+    border: .5px;
+    border-radius: 5px;
+    font-family: Myriad Pro, Helvetica, sans-serif;
+    font-size: 75%;
+}
+
+#standard {
+    background-color: #FFFFFF;
+    opacity: .90;
+    font-family: Myriad Pro;
+    box-shadow: 5px 5px 5px rgba(0, 0, 50, 0.06);
+    border: .5px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 85%;
+    margin: auto;
+}
+
