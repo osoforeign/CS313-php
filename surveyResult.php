@@ -11,9 +11,6 @@ if (filesize("surveyResult.txt") == 0) {
   fclose($myfile);
 }
 $cooLines = file('surveyResult.txt', FILE_IGNORE_NEW_LINES);
-// foreach ($lines as $value) {
-//   echo "Here is the value: $value<br>";
-// }
 $curryCount = $cooLines[0];
 $westbrookCount = $cooLines[1];
 $jamesCount = $cooLines[2];
@@ -123,7 +120,7 @@ switch ($coach) {
 // echo "Popovich $popovichCount\n";
 // echo "Stotts $stottsCount\n";
 // echo "Lue $lueCount\n";
-$myfile = fopen("basketballResults.txt", "w");
+$myfile = fopen("surveyResult.txt", "w");
 fwrite($myfile, "$curryCount\n");
 fwrite($myfile, "$westbrookCount\n");
 fwrite($myfile, "$jamesCount\n");
